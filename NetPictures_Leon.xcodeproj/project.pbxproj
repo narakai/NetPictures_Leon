@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4155B6B7A22630E618D6EB72 /* Pods_NetPictures_Leon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB61F5EA086D287B792B5CF /* Pods_NetPictures_Leon.framework */; };
+		FCA150605CB0A08E21CD37FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA15A801442054B0BA07DE4 /* Assets.xcassets */; };
+		FCA15502285163CEDFA591D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15890F267DA6F9AA0B25A /* ViewController.swift */; };
+		FCA1554EE6C96348C31AA1C8 /* ToolsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15BC8AB6CA9AA8C5AFD79 /* ToolsFile.swift */; };
+		FCA1594A3D70EA4420EBE71A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15D85D5B9C42FC4BB7724 /* AppDelegate.swift */; };
+		FCA15AA6B02F44460C58EAF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA15F350EBF289355C9005A /* LaunchScreen.storyboard */; };
+		FCA15C2989F4ED4839A3AA22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA155389FF98951025C1733 /* Main.storyboard */; };
+		FCA15E52CA2C1D36B38C069D /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15403A10A48BD0F819B1D /* CustomCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		058F432A260162931897F572 /* Pods-NetPictures_Leon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetPictures_Leon.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetPictures_Leon/Pods-NetPictures_Leon.release.xcconfig"; sourceTree = "<group>"; };
+		DEB61F5EA086D287B792B5CF /* Pods_NetPictures_Leon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetPictures_Leon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E445C2CE43598E95CD81162B /* Pods-NetPictures_Leon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetPictures_Leon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetPictures_Leon/Pods-NetPictures_Leon.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA15403A10A48BD0F819B1D /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		FCA155D4EC862EDA760DCA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		FCA15658109EBC2A0A21ACD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCA15890F267DA6F9AA0B25A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCA15A801442054B0BA07DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA15ABE19900978DAF19A95 /* NetPictures_Leon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetPictures_Leon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA15BC8AB6CA9AA8C5AFD79 /* ToolsFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsFile.swift; sourceTree = "<group>"; };
+		FCA15D85D5B9C42FC4BB7724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCA15F343F2A278E01E86F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA15164A7075F94F27C5A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4155B6B7A22630E618D6EB72 /* Pods_NetPictures_Leon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DADDFB187C492775DB43C39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E445C2CE43598E95CD81162B /* Pods-NetPictures_Leon.debug.xcconfig */,
+				058F432A260162931897F572 /* Pods-NetPictures_Leon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		739E392061AF088E7FEA6774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEB61F5EA086D287B792B5CF /* Pods_NetPictures_Leon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCA15940DB92F5B442266D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA15ABE19900978DAF19A95 /* NetPictures_Leon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA15D14FA0E05AEA336228D = {
+			isa = PBXGroup;
+			children = (
+				FCA15940DB92F5B442266D10 /* Products */,
+				FCA15D4B712ADE6ECEB6B172 /* NetPictures_Leon */,
+				2DADDFB187C492775DB43C39 /* Pods */,
+				739E392061AF088E7FEA6774 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA15D4B712ADE6ECEB6B172 /* NetPictures_Leon */ = {
+			isa = PBXGroup;
+			children = (
+				FCA155D4EC862EDA760DCA05 /* Info.plist */,
+				FCA15A801442054B0BA07DE4 /* Assets.xcassets */,
+				FCA15F350EBF289355C9005A /* LaunchScreen.storyboard */,
+				FCA15D85D5B9C42FC4BB7724 /* AppDelegate.swift */,
+				FCA155389FF98951025C1733 /* Main.storyboard */,
+				FCA15890F267DA6F9AA0B25A /* ViewController.swift */,
+				FCA15BC8AB6CA9AA8C5AFD79 /* ToolsFile.swift */,
+				FCA15403A10A48BD0F819B1D /* CustomCell.swift */,
+			);
+			path = NetPictures_Leon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA158216648B5C07DB53E10 /* NetPictures_Leon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA15A640CB459DCB0E51314 /* Build configuration list for PBXNativeTarget "NetPictures_Leon" */;
+			buildPhases = (
+				9BFFEA31480DCBED129DA956 /* [CP] Check Pods Manifest.lock */,
+				FCA15F193F6810F0874D7588 /* Sources */,
+				FCA15164A7075F94F27C5A68 /* Frameworks */,
+				FCA156432C96356B3063B906 /* Resources */,
+				351B67B95FD32441B625BABF /* [CP] Embed Pods Frameworks */,
+				A2CB5A1C0956F639CC38322F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetPictures_Leon;
+			productName = NetPictures_Leon;
+			productReference = FCA15ABE19900978DAF19A95 /* NetPictures_Leon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA1548D09EDF6118A5D5875 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = clem;
+				TargetAttributes = {
+					FCA158216648B5C07DB53E10 = {
+						DevelopmentTeam = FCKB72E74L;
+					};
+				};
+			};
+			buildConfigurationList = FCA1582E6CC6BC41BC4883A6 /* Build configuration list for PBXProject "NetPictures_Leon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCA15D14FA0E05AEA336228D;
+			productRefGroup = FCA15940DB92F5B442266D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA158216648B5C07DB53E10 /* NetPictures_Leon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA156432C96356B3063B906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA150605CB0A08E21CD37FF /* Assets.xcassets in Resources */,
+				FCA15AA6B02F44460C58EAF8 /* LaunchScreen.storyboard in Resources */,
+				FCA15C2989F4ED4839A3AA22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		351B67B95FD32441B625BABF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NetPictures_Leon/Pods-NetPictures_Leon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetPictures_Leon/Pods-NetPictures_Leon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BFFEA31480DCBED129DA956 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetPictures_Leon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2CB5A1C0956F639CC38322F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetPictures_Leon/Pods-NetPictures_Leon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA15F193F6810F0874D7588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA1594A3D70EA4420EBE71A /* AppDelegate.swift in Sources */,
+				FCA15502285163CEDFA591D7 /* ViewController.swift in Sources */,
+				FCA1554EE6C96348C31AA1C8 /* ToolsFile.swift in Sources */,
+				FCA15E52CA2C1D36B38C069D /* CustomCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCA155389FF98951025C1733 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA15658109EBC2A0A21ACD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCA15F350EBF289355C9005A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA15F343F2A278E01E86F39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA15033F829006308DD28A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA1531870F3C306EFF41F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 058F432A260162931897F572 /* Pods-NetPictures_Leon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FCKB72E74L;
+				INFOPLIST_FILE = NetPictures_Leon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clem.www.NetPictures-Leon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCA154E43402B0FFBB3B7771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCA1590CD7342730CDB513D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E445C2CE43598E95CD81162B /* Pods-NetPictures_Leon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FCKB72E74L;
+				INFOPLIST_FILE = NetPictures_Leon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clem.www.NetPictures-Leon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA1582E6CC6BC41BC4883A6 /* Build configuration list for PBXProject "NetPictures_Leon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA154E43402B0FFBB3B7771 /* Debug */,
+				FCA15033F829006308DD28A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA15A640CB459DCB0E51314 /* Build configuration list for PBXNativeTarget "NetPictures_Leon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA1590CD7342730CDB513D9 /* Debug */,
+				FCA1531870F3C306EFF41F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA1548D09EDF6118A5D5875 /* Project object */;
+}
